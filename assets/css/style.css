@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Protest Riot', sans-serif;
+    background-image: url(../img/IMG_9728.JPG);
+}
+
+#titulo {
+    margin: 1rem 0 0 3rem;
+}
+ 
+section{
+    
+    margin: 0 2rem 0 2rem;
+    padding: 1rem;
+    height: auto;
+    width: 100%;
+    background-color: #F9EBEA;
+    border: 2px solid #78281F;
+}
+
+input {
+    width: 700px;
+    padding: 0.5rem;
+}
+button {
+    color: white;
+    background-color: #E74C3C;
+    padding: 0.5rem;
+    border-radius: 20%;
+    margin-left: 1rem;
+}
+#results {
+    display: flex;
+    justify-content: space-between;
+}
+.resultados {
+    display: flex;
+    flex-direction: column;
+    
+}
+.lista {
+    width: 70%;
+}
+
+
+
+
